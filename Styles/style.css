@@ -444,17 +444,120 @@ body{
 }
 
 /* Fourth Cards Styling */
+.fourth-card-container{
+
+    display: flex;
+    gap: 30px;
+
+}
 
 .fourth-cards{
 
     background-color: #250D44;
-    border-radius: 20px;
+    border-radius: 40px;
 
+
+}
+.fourth-cards iframe{
+
+    border: none;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+}
+.fou-content-container{
+    padding: 24px;
+}
+.four-card-title{
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 12px;
+
+
+}
+.four-card-text{
+
+    line-height: 1.5rem;
+    color: white;
+    margin-bottom: 12px;
+
+
+}
+.four-card-timer{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.four-card-time{
+
+    color: #00FF88;
+    line-height: 1.5rem;
+    font-weight: 600;
+
+}
+.four-card-image{
+
+    height: 20px;
+    width: 20px;
 
 }
 
 
+/* Fourth Second Section Styling */
 
+.four-second-contain{
+
+    background-color: #250D44;
+    border-radius: 40px;
+    padding: 40px;
+
+}
+
+.fourth-image{
+
+    height: 200px;
+    width: 200px;
+    border: 1px solid blue;
+    border-radius: 50%;
+
+}
+.four-con-head{
+
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+
+}
+.four-con-text{
+
+    line-height: 1.5rem;
+    color: white;
+
+}
+.card-deatails-four{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.four-image{
+
+    height: 20px;
+    width: 20px;
+    border: 1px solid blueviolet;
+    border-radius: 50%;
+    padding: 15px;
+
+}
+.icon-container-four{
+
+    display: flex;
+    /* justify-content: flex-start; */
+    gap: 8px;
+
+}
 
 @media screen and (max-width: 768px) {
 
@@ -530,7 +633,48 @@ body{
 
     }
 
+    /* Fourth first Section */
+    .fourth-card-container{
 
+        flex-direction: column;
+        padding: 10px;
+
+    }
+    .fourth-cards iframe{
+
+        width: 390px;
+        height: 225px;
+
+    }
+    .four-first{
+
+        margin-top: 40px;
+        margin-bottom: 60px;
+
+    }
+
+    /* Four second  style */
+    .four-second{
+
+        
+        margin: 0 10px 40px;
+
+    }
+
+    .card-deatails-four{
+        flex-direction: column;
+        
+        
+
+
+    }
+    .content-con-four{
+        text-align: center;
+
+    }
+    .icon-container-four{
+        justify-content: center;
+    }
 
 
 }
