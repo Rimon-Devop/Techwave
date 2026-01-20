@@ -27,7 +27,7 @@ body{
 
 
 /* Shared Styles */
-flex-display{
+.flex-display{
 
     display: flex;
 
@@ -211,5 +211,24 @@ flex-display{
     display: flex;
     justify-content: center;
     gap: 8px;
+
+}
+.subscribe{
+
+    color: #00FF88;
+    background-color: transparent;
+    border: 2px solid #00FF88;
+    border-radius: 10000px;
+    font-weight: 500;
+    padding: 20px 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.subscribe img{
+
+    margin-right: 8px;
 
 }
