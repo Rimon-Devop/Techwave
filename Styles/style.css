@@ -44,6 +44,33 @@ body{
     cursor: pointer;
 
 }
+.shared-heading-style{
+
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+
+}
+.shared-text-style{
+
+    line-height: 1.5rem;
+    color: white;
+
+}
+
+
+
+.shared-width{
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+
+
+
 
 /* Header and paragraph text styles */
 
@@ -259,6 +286,52 @@ body{
 }
 
 
+
+/* Second Section */
+
+
+.second-content{
+
+    margin-top: 50px;
+    margin-bottom: 80px;
+    text-align: center;
+
+}
+.second-text{
+
+    color: white;
+    line-height: 1.25rem;
+    margin-top: 16px;
+
+}
+.second-line{
+
+    opacity: 10%;
+
+}
+
+.second-counter{
+
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    margin: 80px auto 120px;
+}
+
+
+
+.counter-headers{
+
+    font-size: 3rem;
+    color: #00FF88;
+    font-weight: 900;
+
+
+}
+
+
+
+
 @media screen and (max-width: 768px) {
 
     .banner{
@@ -280,6 +353,11 @@ body{
         margin: 0 auto;
         padding: 30px;
 
+    }
+    .new-btn{
+        top: 0px;
+        right: 5px;
+        
     }
 
     
