@@ -118,8 +118,8 @@ body{
 .new-btn{
 
     position: absolute;
-    top: 0px;
-    right: 90px;
+    top: 30px;
+    right: 20px;
     color: #1A0B2E;
     background-color: #00FF88;
     border: none;
