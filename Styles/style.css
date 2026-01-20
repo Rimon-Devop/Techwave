@@ -156,6 +156,9 @@ body{
 .right-arrow{
     margin: 12px 12px 12px 4px;
 }
+.burger{
+    display: none;
+}
 
 
 /* Banner Section Styles */
@@ -404,6 +407,7 @@ body{
     display: grid;
     align-items: center;
     gap: 30px;
+    margin-bottom: 120px;
     grid-template-areas: 
         "c-one  c-two   c-two"
         "c-one  c-three c-three"
@@ -417,12 +421,29 @@ body{
 
 @media screen and (max-width: 768px) {
 
-    .banner{
-        height: auto;
+
+
+    /* Menu  */
+    .burger{
+
+        display: block;
     }
+    .menu-subscribe{
+        display: none;
+    }
+
     .menu-li{
         display: none;
     }
+    .navigation{
+        justify-content: space-between;
+    }
+
+
+    .banner{
+        height: auto;
+    }
+
 
     .banner-container{
 
@@ -460,6 +481,8 @@ body{
     /* Third Cards */
     .third-card-container{
 
+
+        margin-bottom: 40px;
         grid-template-areas:
             "c-one"
             "c-two"
