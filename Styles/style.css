@@ -312,10 +312,11 @@ body{
 
 .second-counter{
 
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
     gap: 80px;
     margin: 80px auto 120px;
+    text-align: center;
 }
 
 
@@ -326,6 +327,17 @@ body{
     color: #00FF88;
     font-weight: 900;
 
+
+}
+
+
+/* Third Section Styles */
+
+
+.title{
+
+    margin: 120px auto 40px;
+    text-align: center;
 
 }
 
@@ -358,6 +370,13 @@ body{
         top: 0px;
         right: 5px;
         
+    }
+    .second-counter{
+        
+        grid-template-columns: repeat(2 ,1fr);
+        place-items: center;
+        gap: 40px;
+
     }
 
     
