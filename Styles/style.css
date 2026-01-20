@@ -134,9 +134,12 @@ body{
     font-weight: 800;
     color: white;
     text-align: center;
+    margin-bottom: 8px;
+}
+.hero-description{
 
-
-
+    color: white;
+    text-align: center;
 }
 
 
