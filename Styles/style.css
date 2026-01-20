@@ -127,7 +127,7 @@ body{
 
 }
 
-
+/* Hero Contents */
 .hero-title{
 
     font-size: 3.75rem;
@@ -140,6 +140,18 @@ body{
 
     color: white;
     text-align: center;
+    margin-bottom: 3rem;
 }
 
+/* Hero Buttons Styles */
+
+
+.button-container{
+
+    
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+
+}
 
