@@ -28,9 +28,15 @@ body{
 
 /* Shared Styles */
 
+/* Header and paragraph text styles */
 
+.regular-header{
 
-
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 2.5rem;
+}
 
 
 
@@ -60,6 +66,9 @@ body{
 
 /* Banner Section Styles */
 
+
+/* Hero Image Style */
+
 .banner{
 
     background-image: url('../assets/hero-bg.png');
@@ -86,7 +95,7 @@ body{
 }
 .img-container{
 
-    margin: 0 auto;
+    margin: 0 auto 40px;
 
 }
 
@@ -115,6 +124,18 @@ body{
     font-weight: 500;
     padding: 8px 16px;
     cursor: pointer;
+
+}
+
+
+.hero-title{
+
+    font-size: 3.75rem;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+
+
 
 }
 
