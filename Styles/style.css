@@ -333,13 +333,84 @@ body{
 
 /* Third Section Styles */
 
+.third-section{
+
+    background-color: #230E3D;
+
+
+}
 
 .title{
 
-    margin: 120px auto 40px;
+    padding-top: 120px;
+    margin-bottom: 80px;
     text-align: center;
 
 }
+/* Cards Design */
+
+.cards{
+
+    padding: 40px;
+    border: none;
+    border-radius: 40px;
+    background-color: rgba(53, 17, 101, 0.4);
+
+}
+.card-img{
+
+    height: 60px;
+    width: 60px;
+
+}
+.cards-header{
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+
+}
+
+#card-1{
+    
+    grid-area: c-one;
+
+}
+#card-2{
+    
+    grid-area: c-two;
+
+}
+#card-3{
+    
+    grid-area: c-three;
+
+}
+#card-4{
+    
+    grid-area: c-four;
+
+}
+#card-5{
+    
+    grid-area: c-five;
+
+}
+
+
+
+.third-card-container{
+
+    display: grid;
+    align-items: center;
+    gap: 30px;
+    grid-template-areas: 
+        "c-one  c-two   c-two"
+        "c-one  c-three c-three"
+        "c-four c-four  c-five"
+    
+}
+
 
 
 
@@ -379,5 +450,27 @@ body{
 
     }
 
-    
+    .title{
+
+        padding-top: 40px;
+        margin-bottom: 16px;
+
+    }
+
+    /* Third Cards */
+    .third-card-container{
+
+        grid-template-areas:
+            "c-one"
+            "c-two"
+            "c-three"
+            "c-four"
+            "c-five"
+
+
+    }
+
+
+
+
 }
